@@ -1,19 +1,119 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>JacketsZone - Premium Jackets Store</title>
 
 <meta name="description" content="JacketsZone offers premium leather jackets, winter coats, denim jackets and stylish outerwear for men and women. Shop latest fashion jackets online.">
 
-<meta name="keywords" content="jackets, leather jackets, winter jackets, denim jackets, jacketszone, fashion outerwear">
-
 <link rel="stylesheet" href="style.css">
+
+<style>
+body{
+    margin:0;
+    font-family:Segoe UI, sans-serif;
+    background:#0b0f19;
+    color:white;
+}
+
+header{
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    padding:15px 30px;
+    background:#111827;
+}
+
+.logo{
+    font-size:24px;
+    font-weight:bold;
+    color:#facc15;
+}
+
+nav a{
+    color:white;
+    margin:0 10px;
+    text-decoration:none;
+}
+
+.hero{
+    height:90vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    background:linear-gradient(135deg,#1f2937,#0f172a);
+}
+
+.hero h1{
+    font-size:55px;
+    color:#facc15;
+    margin:0;
+}
+
+.hero p{
+    font-size:18px;
+    color:#cbd5e1;
+}
+
+.btn{
+    margin-top:20px;
+    padding:12px 25px;
+    background:#facc15;
+    border:none;
+    font-weight:bold;
+    cursor:pointer;
+}
+
+.container{
+    width:85%;
+    margin:auto;
+    padding:50px 0;
+}
+
+.grid{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+    gap:20px;
+}
+
+.card{
+    background:#111827;
+    padding:20px;
+    border-radius:10px;
+    border:1px solid #1f2937;
+    transition:0.3s;
+}
+
+.card:hover{
+    transform:translateY(-5px);
+    border-color:#facc15;
+}
+
+.section-title{
+    text-align:center;
+    font-size:30px;
+    margin-bottom:20px;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#111827;
+    margin-top:40px;
+}
+</style>
+
 </head>
 
 <body>
 
 <header>
 <div class="logo">JacketsZone</div>
+
 <nav>
 <a href="index.html">Home</a>
 <a href="shop.html">Shop</a>
@@ -24,62 +124,67 @@
 </header>
 
 <!-- HERO SECTION -->
-<div class="hero">
+<section class="hero">
 <h1>Premium Jackets Collection</h1>
-<p>Style | Comfort | Luxury</p>
-<button class="btn">Shop Now</button>
-</div>
+<p>Style • Comfort • Luxury Fashion Wear</p>
+<button class="btn">Explore Collection</button>
+</section>
 
 <!-- FEATURED PRODUCTS -->
-<div class="container">
-<h2>Featured Jackets</h2>
+<section class="container">
+<h2 class="section-title">🔥 Featured Jackets</h2>
 
 <div class="grid">
-<div class="card">🔥 Leather Jacket - $99</div>
-<div class="card">❄ Winter Hoodie - $59</div>
-<div class="card">👖 Denim Jacket - $79</div>
-</div>
-</div>
 
-<!-- SEO CONTENT SECTION -->
-<div class="container">
-<h2>About JacketsZone</h2>
-
-<p>
-Welcome to <strong>JacketsZone</strong>, your ultimate destination for premium quality jackets designed for modern fashion lovers. We specialize in high-quality outerwear that combines comfort, durability, and style. Whether you are looking for a classic leather jacket, a warm winter coat, or a trendy denim jacket, JacketsZone brings you the latest fashion trends at affordable prices.
-</p>
-
-<p>
-Our collection is carefully curated to match global fashion standards. Every jacket is made with attention to detail, ensuring long-lasting wear and premium finishing. We believe fashion is not just clothing, it is a statement of personality and confidence.
-</p>
-
-<p>
-At JacketsZone, customer satisfaction is our top priority. We focus on providing stylish jackets that suit every season and occasion. From casual streetwear to formal outerwear, our designs are crafted for versatility and elegance.
-</p>
-
-<p>
-We continuously update our store with new arrivals so you never miss out on trending fashion. Our goal is to become a trusted name in the global jacket industry by delivering quality products and exceptional service.
-</p>
-
-<p>
-If you are a fashion enthusiast looking for premium outerwear, JacketsZone is the perfect place for you. Explore our collection and upgrade your wardrobe with stylish and comfortable jackets.
-</p>
-
-<!-- INTERNAL SEO LINKS (IMPORTANT) -->
-<p>
-Explore more:  
-<a href="shop.html">Shop Jackets</a> |  
-<a href="blog.html">Fashion Blog</a> |  
-<a href="about.html">About Us</a>
-</p>
-
+<div class="card">
+<h3>Leather Jacket</h3>
+<p>Premium quality leather jacket for modern street style.</p>
 </div>
 
-<!-- FOOTER -->
+<div class="card">
+<h3>Winter Hoodie</h3>
+<p>Warm, comfortable and stylish hoodie for cold seasons.</p>
+</div>
+
+<div class="card">
+<h3>Denim Jacket</h3>
+<p>Classic denim jacket for everyday casual fashion.</p>
+</div>
+
+</div>
+</section>
+
+<!-- BRAND STORY (SEO CONTENT) -->
+<section class="container">
+<h2 class="section-title">Why JacketsZone?</h2>
+
+<p>
+Welcome to <strong>JacketsZone</strong>, a modern fashion destination for premium jackets designed with style and comfort in mind. We specialize in high-quality outerwear including leather jackets, winter coats, bomber jackets, and denim jackets for both men and women.
+</p>
+
+<p>
+Our mission is to bring you the latest fashion trends at affordable prices while maintaining premium quality. Each product is carefully selected to ensure durability, comfort, and a stylish look for every occasion.
+</p>
+
+<p>
+At JacketsZone, fashion is more than clothing — it is identity. Whether you are going for a casual street look or a classy evening outfit, our jackets help you stand out with confidence.
+</p>
+
+<p>
+We constantly update our collection with new arrivals so you can always stay ahead in fashion trends. JacketsZone is your trusted place for modern outerwear shopping.
+</p>
+
+</section>
+
+<!-- CTA -->
+<section class="container" style="text-align:center;">
+<h2>Ready to Upgrade Your Style?</h2>
+<p>Explore our latest jacket collection now</p>
+<button class="btn">Shop Now</button>
+</section>
+
 <footer>
-© 2026 JacketsZone | All Rights Reserved  
-<br>
-<a href="https://jacketszone.com">Official Website</a>
+© 2026 JacketsZone | Premium Fashion Store
 </footer>
 
 </body>
