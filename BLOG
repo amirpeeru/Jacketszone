@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title>Blog - JacketsZone</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<div class="logo">JacketsZone</div>
+<nav>
+<a href="index.html">Home</a>
+<a href="shop.html">Shop</a>
+<a href="about.html">About</a>
+<a href="blog.html">Blog</a>
+<a href="contact.html">Contact</a>
+</nav>
+</header>
+
+<div class="container">
+<div class="card">Winter Fashion Trends 2026</div>
+<div class="card">How to style leather jackets</div>
+</div>
+
+<footer>© 2026 JacketsZone</footer>
+</body>
+</html>
